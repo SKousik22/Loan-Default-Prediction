@@ -11,3 +11,11 @@ The dataset contains customer-related information such as:
 
 
 **Dataset:** [`Loan_Default.csv`](https://drive.google.com/file/d/1T0fYXXkviYYrut20qu1Djs141RhLPjIB/view?usp=sharing)
+
+You can directly load the dataset using this code:
+```python
+import pandas as pd
+file_id = '1T0fYXXkviYYrut20qu1Djs141RhLPjIB'
+download_url = f'https://drive.google.com/uc?export=download&id={file_id}'
+
+df = pd.read_csv(download_url)
