@@ -15,7 +15,7 @@ The dataset contains customer-related information such as:
 You can directly load the dataset using this code:
 ```python
 import pandas as pd
-file_id = '1T0fYXXkviYYrut20qu1Djs141RhLPjIB'
+file_id = '1ibeEvuGTnWyMx6grwa6pe2P2Q1O2gJAU'
 download_url = f'https://drive.google.com/uc?export=download&id={file_id}'
 
 df = pd.read_csv(download_url)
